@@ -421,6 +421,19 @@ footer {
 }
 
 @media only screen and (max-width: 676px) {
+
+    .header-title{
+        display: none;
+    }
+
+    nav{
+        width: 100%;
+    }
+
+    .header-list ul li a{
+        padding: 0 35px;
+    }
+
     .margin-container-deeper{
         margin: 0 70px;
     }
@@ -432,7 +445,31 @@ footer {
     }
 }
 
-@media only screen and (max-width: 896px) {
+@media only screen and (max-width: 485px){
+    .footer-1{
+        width: auto;
+    }
+
+    .footer-moreInfo{
+        width: auto;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .footer-2{
+        padding: 0;
+    }
+
+    .footer-3{
+        padding: 0;
+    }
+
+    .footer-4{
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 426px) {
 
     .content-banner-bagian2 img {
         float: none;
@@ -440,6 +477,49 @@ footer {
         display: flex;
         justify-content: center;
         margin-top: 0px;
+        border-radius: 120px 120px 0px 0px;
+    }    
+
+    .content-banner{
+        padding-bottom: 0;
+    }
+
+    .margin-container{
+        margin: auto 30px;
+    }
+
+    .footer-1{
+        width: auto;
+    }
+
+    .footer-moreInfo{
+        width: auto;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .footer-2{
+        padding: 0;
+    }
+
+    .footer-3{
+        padding: 0;
+    }
+
+    .footer-4{
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+
+    .content-banner-bagian2 img {
+        float: none;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        margin-top: 0px;
+        border-radius: 120px 120px 0px 0px;
     }
 
 
@@ -475,8 +555,6 @@ footer {
     .content-banner-bagian2 img {
         float: none;
         margin: 0 auto;
-        display: flex;
-        justify-content: center;
         margin-top: 0px;
     }
 
@@ -504,7 +582,7 @@ footer {
         height: auto;
         padding-bottom: 100px;
     }
-
+ 
     .textAndButton1 {
         text-align: center;
         padding-top: 20px;
@@ -534,6 +612,12 @@ footer {
     }
 }
 
+@media only screen and (max-width: 376px){
+    .content-banner     {
+        padding-bottom: 200px;
+    }
+}
+
 @media only screen and (max-width: 500px) {
     
     .content-banner-bagian2 img {
@@ -542,6 +626,7 @@ footer {
         display: flex;
         justify-content: center;
         margin-top: 0px;
+        width: 320px;
     }
 
 
@@ -574,14 +659,15 @@ footer {
 }
 
 @media only screen and (max-width: 430px) {
-    .sofa-img-frame {
-        width: 0;
+
+    .margin-container-deeper{
+        margin: 0;
     }
 
     .content-banner {
         width: 100%;
         height: auto;
-        padding-bottom: 300px;
+        padding-bottom: 80px;
     }
 
     .content-banner-bagian2 {
@@ -596,6 +682,44 @@ footer {
 
     .textAndButton1 {
         text-align: center;
+    }
+}
+
+@media only screen and (max-width: 415px){
+    .content-banner-bagian2 img {
+        float: none;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        margin-top: 0px;
+        width: 340px;
+    }
+
+    .content-banner {
+        width: 100%;
+        height: auto;
+        padding-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 361px){
+    .header-list ul li a{
+        padding: 0 30px;
+    }
+
+    .content-banner-bagian2 img {
+        float: none;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        margin-top: 0px;
+        width: 300px;
+    }
+
+    .content-banner {
+        width: 100%;
+        height: auto;
+        padding-bottom: 80px;
     }
 }
 
@@ -625,6 +749,36 @@ footer {
     }
 }
 
-@media only screen and (max-width: 665px) {
+@media only screen and (max-width: 321px){
 
+    .content-banner {
+        width: 100%;
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    .content-banner-bagian2 img {
+        float: none;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        margin-top: 150px;
+        border-radius: 120px 120px 0px 0px;
+        width: 255px;
+    }
+
+    .header-list ul li a {
+        padding: 0px 20px;
+        color: black;
+        text-decoration: none;
+        transition: 0.4s;
+    }
+}
+
+@media only screen and (max-width: 281px) {
+    .content-banner {
+        width: 100%;
+        height: auto;
+        padding-bottom: 150px;
+    }
 }
