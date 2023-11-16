@@ -1,0 +1,630 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body, html{
+    width: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+.ketengahin {
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    background-image: linear-gradient( rgb(255, 168, 6), rgb(249, 129, 0));
+}
+
+nav {
+    width: 90%;
+    height: 70px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+    border-radius: 0px 0px 30px 30px;
+}
+
+.header-title h1 {
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+
+.header-list ul {
+    display: flex;
+}
+
+.header-list ul li a {
+    padding: 0px 50px;
+    color: black;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.header-list ul li a:hover {
+    letter-spacing: 1px;
+    font-size: 16px;
+    color: #3c3c3c;
+}
+
+.content-banner {
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(rgb(249, 129, 0), rgb(255, 168, 6));
+    padding-bottom: 50px;
+}
+
+.content-banner-bagian1 {
+    /* border: solid 2px green; */
+    width: 50%;
+    height: auto;
+    padding-bottom: 40px;
+}
+
+.content-banner-bagian2 {
+    /* border: solid 2px red; */
+    width: 50%;
+    height: auto;
+}
+
+.margin-container {
+    margin: 0px 100px;
+}
+
+.textAndButton1 {
+    padding-top: 80px;
+    height: 300px;
+    width: 100%;
+}
+
+.textAndButton1 h1 {
+    font-size: 50px;
+    color: white;
+    transition: 0.5s;
+}
+
+.textAndButton1 h1:hover{
+    font-size: 51px;
+}
+
+.textAndButton1 a {
+    margin-top: 10px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.btn-shopAt {
+    width: 130px;
+    height: 25px;
+    background-color: white;
+    border-radius: 30px;
+    border: solid 2px black;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.25);
+    transition: 0.4s;
+}
+
+.btn-shopAt:hover {
+    background-color: rgb(216, 216, 216);
+}
+
+.btn-shopAt p {
+    color: black;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.content-banner-bagian2 img {
+    float: right;
+    margin-top: 40px;
+}
+
+.sofa-img-frame {
+    width: 400px;
+    border-radius: 80px 0px 80px 0px;
+    box-shadow:
+        2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+        6.7px 6.7px 5.3px rgba(0, 0, 0, 0.015),
+        12.5px 12.5px 10px rgba(0, 0, 0, 0.020),
+        22.3px 22.3px 17.9px rgba(0, 0, 0, 0.021),
+        41.8px 41.8px 33.4px rgba(0, 0, 0, 0.02),
+        100px 100px 80px rgba(0, 0, 0, 0.04);
+}
+
+.sejajar1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sejajar1 img {
+    display: flex;
+    justify-content: end;
+}
+
+.content-service {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 40px;
+    background-color: white;
+}
+
+.service-title {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.service-article {
+    margin-left: 20px;
+}
+
+.service-main {
+    margin-top: 25px;
+}
+
+.service-main-sejajar {
+    display: flex;
+    align-items: center;
+}
+
+.service-sejajar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 165px;
+}
+
+.content-featured {
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 241, 224);
+    padding-bottom: 30px;
+}
+
+.featured-title {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.card {
+    width: 160px;
+    height: 200px;
+    background-color: white;
+    border-radius: 15px;
+    border: solid 1px rgb(0, 78, 0);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.25);
+    /* border-radius: ; */
+}
+
+.card-img {
+    width: 160px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.card-title {
+    width: 160px;
+    background-color: rgb(0, 78, 0);
+    border-radius: 0px 0px 15px 15px;
+}
+
+.card-title h5 {
+    padding-left: 10px;
+    color: white;
+}
+
+.sejajar2 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px 0px;
+}
+
+.content-provide {
+    padding: 20px 0px 50px 0px;
+    width: 100%;
+    height: auto;
+}
+
+.provide-img {
+    width: 250px;
+}
+
+.sejajar3 {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.provide-main a {
+    margin-top: 20px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 20px;
+    border: solid 2px black;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.25);
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    color: white;
+    background-color: #000;
+    padding-bottom: 30px;
+}
+
+.footer-1 {
+    padding: 30px 50px;
+    width: 40%;
+    height: auto;
+}
+
+.footer-1 h1 {
+    font-weight: bold;
+}
+
+
+.footer-2 {
+    padding: 30px 50px;
+    width: 20%;
+    height: 200px;
+}
+
+.footer-2 h3 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.footer-2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-2 a:hover {
+    text-decoration: underline;
+}
+
+.footer-2 a h5 {
+    font-weight: lighter;
+}
+
+.footer-3 {
+    padding: 30px 50px;
+    width: 20%;
+    height: 200px;
+}
+
+.footer-4 {
+    padding: 30px 50px;
+    width: 20%;
+    height: 200px;
+}
+
+.sejajar4 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-moreInfo{
+    display: flex;
+}
+
+.footer-3 a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-3 a h5 {
+    font-weight: lighter;
+}
+
+.footer-3 a:hover {
+    text-decoration: underline;
+}
+
+.footer-4 a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-4 a h5 {
+    font-weight: lighter;
+}
+
+.footer-4 a:hover {
+    text-decoration: underline;
+}
+
+.btn-viewMore {
+    width: 130px;
+    height: 25px;
+    background-color: white;
+    border-radius: 30px;
+    border: solid 3px black;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.25);
+    transition: 0.4s;
+}
+
+.btn-viewMore:hover {
+    background-color: rgb(216, 216, 216);
+}
+
+.btn-viewMore p {
+    color: black;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1000px) {
+    .service-main-sejajar {
+        flex-direction: column;
+    }
+
+    .service-article {
+        margin-left: 0;
+    }
+
+    .service-article {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+    .service-main-sejajar{
+        flex-direction: row;
+    }
+
+    .service-sejajar {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .service-article {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .sejajar2 {
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 1025px) {
+    .sejajar3 {
+        flex-wrap: wrap;
+        gap: 0;
+    }
+
+    #deleteWhenRespons {
+        width: 0;
+    }
+}
+
+@media only screen and (max-width: 676px) {
+    .margin-container-deeper{
+        margin: 0 70px;
+    }
+
+    .sejajar4{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 896px) {
+
+    .content-banner-bagian2 img {
+        float: none;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        margin-top: 0px;
+    }
+
+
+    .sejajar1{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .content-banner {
+        width: 100%;
+        height: auto;
+    }
+
+    .content-banner-bagian2 {
+        width: auto;
+        height: auto;
+    }
+
+    .content-banner-bagian1 {
+        width: auto;
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    .textAndButton1 {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 589px) {
+
+    .content-banner-bagian2 img {
+        float: none;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        margin-top: 0px;
+    }
+
+
+    .sejajar1{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    
+
+    .content-banner {
+        width: 100%;
+        height: auto;
+        padding-bottom: 90px;
+    }
+
+    .content-banner-bagian2 {
+        width: auto;
+        height: auto;
+    }
+
+    .content-banner-bagian1 {
+        width: auto;
+        height: auto;
+        padding-bottom: 100px;
+    }
+
+    .textAndButton1 {
+        text-align: center;
+        padding-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 576px){
+
+    .content-banner-bagian1{
+        padding-bottom: 100px;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    body{
+        width: 100%;
+    }
+
+    main{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 632px) {
+    .content-banner-bagian1{
+        padding-bottom: 140px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    
+    .content-banner-bagian2 img {
+        float: none;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        margin-top: 0px;
+    }
+
+
+    .sejajar1{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .content-banner {
+        width: 100%;
+        height: auto;
+        padding-bottom: 170px;
+    }
+
+    .content-banner-bagian2 {
+        width: auto;
+        height: auto;
+    }
+
+    .content-banner-bagian1 {
+        width: auto;
+        height: auto;
+        padding-bottom: 100px;
+    }
+
+    .textAndButton1 {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .sofa-img-frame {
+        width: 0;
+    }
+
+    .content-banner {
+        width: 100%;
+        height: auto;
+        padding-bottom: 300px;
+    }
+
+    .content-banner-bagian2 {
+        width: 0;
+        height: auto;
+    }
+
+    .content-banner-bagian1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .textAndButton1 {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .sofa-img-frame {
+        width: 0;
+    }
+
+    .content-banner {
+        width: 100%;
+        height: auto;
+        padding-bottom: 320px;
+    }
+
+    .content-banner-bagian2 {
+        width: 0;
+        height: auto;
+    }
+
+    .content-banner-bagian1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .textAndButton1 {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 665px) {
+
+}
