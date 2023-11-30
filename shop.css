@@ -224,6 +224,7 @@ nav {
 
 .sejajar2 {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
     padding: 20px 0px;
@@ -366,6 +367,9 @@ footer {
     display: flex;
 }
 
+.margin-container-deeper {
+    margin: 0 240px;
+}
 
 
 
@@ -373,6 +377,12 @@ footer {
 
 
 
+@media only screen and (max-width: 1190px){
+    
+    .margin-container-deeper {
+        margin: 0 100px;
+    }
+}
 
 @media only screen and (max-width: 1025px) {
     .sejajar3 {
@@ -592,6 +602,12 @@ footer {
 
     .footer-4 {
         padding: 0;
+    }
+}
+
+@media only screen and (max-width: 513px){
+    .margin-container-deeper {
+        margin: 0;
     }
 }
 
